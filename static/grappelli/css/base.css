@@ -18,22 +18,31 @@
 @import url('reset.css');
 @import url('typography.css');
 @import url('modules.css');
+
+
+/*  Loads background-gradients for webkit browsers (Safari etc.)
+    Comment out the following css-import if you want to use Grappelli without gradients */
 @import url('tables.css');
 @import url('forms.css');
 @import url('widgets.css');
 
-/*  Loads background-gradients for webkit browsers (Safari etc.)
-    Comment out the following css-import if you want to use Grappelli without gradients */
 @import url('webkit-gradients.css');
 
-
+@font-face {
+	font-family: 'plus';
+	src: url('../../fonts/plus.eot'),
+	url('../../fonts/plus.woff') format('woff'),
+	url('../../fonts/plus.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 
 /*  Body
 ------------------------------------------------------------------------------------------------------ */
 
 body {
     margin: 0; padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'plus' ,Arial, sans-serif;
     font-size: 12px; line-height: 16px;
     color: #444;
     background: #fff;

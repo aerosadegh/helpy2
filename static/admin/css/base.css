@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 12px;
-    font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    font-family: 'plus',"Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
     color: #333;
     background: #fff;
 }
@@ -248,7 +248,7 @@ td, th {
     border-bottom: 1px solid #eee;
     vertical-align: top;
     padding: 5px;
-    font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+    font-family: 'plus', "Lucida Grande", Verdana, Arial, sans-serif;
 }
 
 th {
@@ -414,7 +414,7 @@ input, textarea, select, .form-row p, form .button {
     margin: 2px 0;
     padding: 2px 3px;
     vertical-align: middle;
-    font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+    font-family: 'plus', "Lucida Grande", Verdana, Arial, sans-serif;
     font-weight: normal;
     font-size: 11px;
 }
@@ -659,7 +659,7 @@ a.deletelink:hover {
 .object-tools {
     font-size: 10px;
     font-weight: bold;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: 'plus', Arial,Helvetica,sans-serif;
     padding-left: 0;
     float: right;
     position: relative;
