@@ -63,13 +63,16 @@
     {% endblock%}
 </div>
 <div class="navbar-collapse collapse">
+    <span class="hidden-sm hidden-xs">
     {% block navbar_search_form %}{% search_form "all" %}{% endblock %}
+    </span>
     {% block navbar_dropdown_menu %}{% page_menu "pages/menus/dropdown.html" %}{% endblock%}
+
 </div>
 </div>
 </div>
 
-<div class="container">
+<div class="container" style="padding: 50px">
 
 {% nevercache %}
 {% if messages %}
@@ -94,7 +97,7 @@
 
 </div>
 
-<div class="container">
+<div class="container" >
 <div class="row">
 
 <div class="col-md-2 left">
@@ -108,19 +111,8 @@
 </div>
 
 <div class="col-md-3 right">
-    {% nevercache %}
-    {% include "includes/language_selector.html" %}
-    {% include "includes/user_panel.html" %}
-    {% endnevercache %}
-    <div class="panel panel-default">
-    <div class="panel-body">
-    {% block right_panel %}
-    {% ifinstalled mezzanine.twitter %}
-    {% include "twitter/tweets.html" %}
-    {% endifinstalled %}
-    {% endblock %}
-    </div>
-    </div>
+
+<!-- Empty panel -->
 </div>
 
 </div>
@@ -133,7 +125,7 @@
 <div class="row">
 <p class="site-info text-center">
     {% trans "Powered by" %}
-    <a href="http://mezzanine.jupo.org">Mezzanine</a>{% ifinstalled cartridge.shop %},
+    <a href="http://asakserver.com">آساک سرور</a>{% ifinstalled cartridge.shop %},
     <a href="http://cartridge.jupo.org">Cartridge</a>{% endifinstalled %}
     {% trans "and" %}
     <a href="http://www.djangoproject.com">Django</a>
