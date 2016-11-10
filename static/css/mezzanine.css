@@ -3,6 +3,14 @@
         MEZZANINE GENERAL STYLES
 ==========================================*/
 
+@font-face {
+	font-family: 'plus';
+	src: url('../fonts/plus.eot'),
+	url('../fonts/plus.woff') format('woff'),
+	url('../fonts/plus.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 
 
 body {
