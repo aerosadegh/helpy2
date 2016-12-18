@@ -79,6 +79,7 @@ urlpatterns += [
     # ``mezzanine.urls``.
     url("^", include("mezzanine.urls")),
 
+
     # MOUNTING MEZZANINE UNDER A PREFIX
     # ---------------------------------
     # You can also mount all of Mezzanine's urlpatterns under a
